@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 int main()
 {
 
-char seq[1000]; 
 
-	scanf("%s", seq );
+
+
+
 
 }
