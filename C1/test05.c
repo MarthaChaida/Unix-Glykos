@@ -14,7 +14,7 @@ while(scanf ("%s", seq ) ==1 )
 	{
 
 	length = strlen(seq);
-	printf("the length is %d\n", length);
+	printf("The length is %d\n", length);
 
 	}
 
