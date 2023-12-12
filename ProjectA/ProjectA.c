@@ -31,12 +31,12 @@ int main()
             seq[i] == 'T' && seq[i+1] == 'A' && seq[i+2] == 'G')
         {
           y = i;
-          printf("Coding Region found at position %d - %d\n", x+1, y+3);
+          printf("ORF found at position %d - %d\n", x+1, y+3);
           break;
         }
         else if (i+3 >= length)
         {
-          printf("Start codon at position %d but no stop codon found.\n", x+1);
+          printf("Start codon at position %d. No stop codon found.\n", x+1);
           break;
         }
         i+=3;
@@ -49,6 +49,6 @@ int main()
   }
   if (!w)
   {
-    printf("No coding region found.\n");
+    printf("No ORF found.\n");
   }
 }
