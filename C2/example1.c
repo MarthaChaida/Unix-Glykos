@@ -19,5 +19,5 @@ int count = 0;
 			{count++;}
 	}
 
-	printf("the GC content is %f/n", (100*count)/length);
+	printf("The GC content is %f/n", (100*count)/length);
 }
